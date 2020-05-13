@@ -6,8 +6,11 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import com.uback.Base.BasePage;
+import com.uback.Listeners.ExtentReportListener;
+import com.uback.Listeners.TestAllureListener;
 import com.uback.Utils.Constants;
 import com.uback.donor.Pages.HomePage;
 import com.uback.donor.Pages.LoginPage;
@@ -17,6 +20,10 @@ import io.qameta.allure.Feature;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 
+
+
+@Listeners(ExtentReportListener.class)
+//@Listeners(TestAllureListener.class)
 @Epic("Epic - 101 : design login feature")
 @Feature("US - 105 : design test cases for login page feature")
 public class LoginPageTest {
@@ -30,6 +37,8 @@ public class LoginPageTest {
 
 	@BeforeTest
 	public void setUp() {
+		
+		
 		basePage = new BasePage();
 		prop = basePage.init_prop();
 		driver = basePage.init_driver(prop);

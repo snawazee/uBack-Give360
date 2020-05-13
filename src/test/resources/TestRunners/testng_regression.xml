@@ -5,11 +5,11 @@
 
 	<listeners>
 
-		<listener class-name="com.uback.Listeners.pdfListener" />
+		<!-- <listener class-name="com.uback.Listeners.pdfListener" />-->
 		<listener class-name="com.uback.Listeners.ExtentReportListener" />
 		<listener class-name="com.uback.Listeners.TestAllureListener" />
-		<listener class-name="com.uback.Listeners.TesultsListener" /> 
-		<listener class-name="com.uback.Listeners.ScreenshotListener" />
+		<!-- <listener class-name="com.uback.Listeners.TesultsListener" /> --> 
+		<!-- <listener class-name="com.uback.Listeners.ScreenshotListener" /> -->
 
 	</listeners>
 

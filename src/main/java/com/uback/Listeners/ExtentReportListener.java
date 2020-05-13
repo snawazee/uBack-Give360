@@ -54,11 +54,11 @@ public class ExtentReportListener extends BasePage implements ITestListener {
 	}
 
 	public synchronized void onStart(ITestContext context) {
-		System.out.println("Test Suite started!");
+		System.out.println("Test Suite Started!");
 	}
 
 	public synchronized void onFinish(ITestContext context) {
-		System.out.println(("Test Suite is ending!"));
+		System.out.println(("Test Suite is Ending!"));
 		extent.flush();
 		test.remove();
 	}
@@ -85,13 +85,13 @@ public class ExtentReportListener extends BasePage implements ITestListener {
 	}
 
 	public synchronized void onTestSuccess(ITestResult result) {
-		System.out.println((result.getMethod().getMethodName() + " passed!"));
+		System.out.println((result.getMethod().getMethodName() + " Passed!"));
 		test.get().pass("Test passed");
 		test.get().getModel().setEndTime(getTime(result.getEndMillis()));
 	}
 
 	public synchronized void onTestFailure(ITestResult result) {
-		System.out.println((result.getMethod().getMethodName() + " failed!"));
+		System.out.println((result.getMethod().getMethodName() + " Failed!"));
 		try {
 			test.get().fail(result.getThrowable(),
 					MediaEntityBuilder.createScreenCaptureFromPath(getScreenshot()).build());
@@ -103,7 +103,7 @@ public class ExtentReportListener extends BasePage implements ITestListener {
 	}
 
 	public synchronized void onTestSkipped(ITestResult result) {
-		System.out.println((result.getMethod().getMethodName() + " skipped!"));
+		System.out.println((result.getMethod().getMethodName() + " Skipped!"));
 		try {
 			test.get().skip(result.getThrowable(),
 					MediaEntityBuilder.createScreenCaptureFromPath(getScreenshot()).build());
