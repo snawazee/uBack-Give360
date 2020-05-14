@@ -49,6 +49,10 @@ public class ExtentReportListener extends BasePage implements ITestListener {
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
 		extent.setReportUsesManualConfiguration(true);
+		extent.setSystemInfo("uBack-Give360","Functional Tesing ");
+		extent.setSystemInfo("Host name","localhost");
+		extent.setSystemInfo("Environemnt","QA");
+		extent.setSystemInfo("user","Safdar NAwaz");
 
 		return extent;
 	}

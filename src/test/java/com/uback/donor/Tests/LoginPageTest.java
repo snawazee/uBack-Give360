@@ -2,15 +2,16 @@ package com.uback.donor.Tests;
 
 import java.util.Properties;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+
 import com.uback.Base.BasePage;
 import com.uback.Listeners.ExtentReportListener;
-import com.uback.Listeners.TestAllureListener;
 import com.uback.Utils.Constants;
 import com.uback.donor.Pages.HomePage;
 import com.uback.donor.Pages.LoginPage;
@@ -30,10 +31,10 @@ public class LoginPageTest {
 
 	Properties prop;
 	WebDriver driver;
-
 	BasePage basePage;
 	LoginPage loginPage;
-	
+	Logger log = Logger.getLogger(LoginPageTest.class);
+
 
 	@BeforeTest
 	public void setUp() {
@@ -43,6 +44,7 @@ public class LoginPageTest {
 		prop = basePage.init_prop();
 		driver = basePage.init_driver(prop);
 		loginPage = new LoginPage(driver);
+		
 	}
 
 	
@@ -50,9 +52,12 @@ public class LoginPageTest {
 	@Description("verify Login Page Title Test....")
 	@Severity(SeverityLevel.TRIVIAL)
 	public void verifyLoginPageTitleTest() {
+		log.info("****************************** starting test case *****************************************");
 		String title = loginPage.getLoginPageTitle();
 		System.out.println("login page title is : " + title);
+		log.info("login page title is--->"+title);
 		Assert.assertEquals(title, Constants.LOGIN_PAGE_TITLE, "title is not found...");
+		log.info("****************************** ending test case *****************************************");
 	}
 	
 	@Test(priority=2, enabled=true)
