@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="uBack-Give360 Regression Test Suite" duration-ms="31068" started-at="2020-05-14T16:45:17 IST" finished-at="2020-05-14T16:45:48 IST">
+  <suite name="uBack-Give360 Regression Test Suite" duration-ms="32221" started-at="2020-05-14T17:00:54 IST" finished-at="2020-05-14T17:01:26 IST">
     <groups>
     </groups>
-    <test name="Regression Functional Test" duration-ms="31068" started-at="2020-05-14T16:45:17 IST" finished-at="2020-05-14T16:45:48 IST">
+    <test name="Regression Functional Test" duration-ms="32221" started-at="2020-05-14T17:00:54 IST" finished-at="2020-05-14T17:01:26 IST">
       <class name="com.uback.donor.Tests.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.uback.donor.Tests.LoginPageTest@522b2631]" name="setUp" is-config="true" duration-ms="18800" started-at="2020-05-14T16:45:17 IST" finished-at="2020-05-14T16:45:36 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.uback.donor.Tests.LoginPageTest@375b5b7f]" name="setUp" is-config="true" duration-ms="21860" started-at="2020-05-14T17:00:54 IST" finished-at="2020-05-14T17:01:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.uback.donor.Tests.LoginPageTest@522b2631]" name="verifyLoginPageTitleTest" duration-ms="398" started-at="2020-05-14T16:45:36 IST" description="verifying login page title test" finished-at="2020-05-14T16:45:37 IST">
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.uback.donor.Tests.LoginPageTest@375b5b7f]" name="verifyLoginPageTitleTest" duration-ms="189" started-at="2020-05-14T17:01:16 IST" description="verifying login page title test" finished-at="2020-05-14T17:01:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method status="PASS" signature="LogoTest()[pri:2, instance:com.uback.donor.Tests.LoginPageTest@522b2631]" name="LogoTest" duration-ms="1418" started-at="2020-05-14T16:45:37 IST" description="verifying login page Logo" finished-at="2020-05-14T16:45:38 IST">
+        <test-method status="PASS" signature="LogoTest()[pri:2, instance:com.uback.donor.Tests.LoginPageTest@375b5b7f]" name="LogoTest" duration-ms="1396" started-at="2020-05-14T17:01:16 IST" description="verifying login page Logo" finished-at="2020-05-14T17:01:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogoTest -->
-        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.uback.donor.Tests.LoginPageTest@522b2631]" name="loginTest" duration-ms="4678" started-at="2020-05-14T16:45:38 IST" description="login into app test" finished-at="2020-05-14T16:45:43 IST">
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.uback.donor.Tests.LoginPageTest@375b5b7f]" name="loginTest" duration-ms="4532" started-at="2020-05-14T17:01:18 IST" description="login into app test" finished-at="2020-05-14T17:01:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="verifyForgotPassTest()[pri:3, instance:com.uback.donor.Tests.LoginPageTest@522b2631]" name="verifyForgotPassTest" duration-ms="1498" started-at="2020-05-14T16:45:43 IST" description="verifying forgot pass link test" finished-at="2020-05-14T16:45:45 IST">
+        <test-method status="PASS" signature="verifyForgotPassTest()[pri:3, instance:com.uback.donor.Tests.LoginPageTest@375b5b7f]" name="verifyForgotPassTest" duration-ms="1458" started-at="2020-05-14T17:01:22 IST" description="verifying forgot pass link test" finished-at="2020-05-14T17:01:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyForgotPassTest -->
-        <test-method status="FAIL" signature="FooterLogoTest()[pri:4, instance:com.uback.donor.Tests.LoginPageTest@522b2631]" name="FooterLogoTest" duration-ms="746" started-at="2020-05-14T16:45:45 IST" finished-at="2020-05-14T16:45:45 IST">
+        <test-method status="FAIL" signature="FooterLogoTest()[pri:4, instance:com.uback.donor.Tests.LoginPageTest@375b5b7f]" name="FooterLogoTest" duration-ms="696" started-at="2020-05-14T17:01:24 IST" description="verifying login page Footer Logo" finished-at="2020-05-14T17:01:24 IST">
           <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
               <![CDATA[stale element reference: element is not attached to the page document
@@ -36,8 +36,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'SAFDAR-PC', ip: '192.168.1.162', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\Safdar\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51232}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: cee944e8bde20cdb3bf1872011acfbb5]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\Safdar\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52564}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2812e5fc43dfe673a832e6af5558a0cc]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
@@ -46,8 +46,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'SAFDAR-PC', ip: '192.168.1.162', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\Safdar\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51232}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: cee944e8bde20cdb3bf1872011acfbb5
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\Safdar\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52564}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2812e5fc43dfe673a832e6af5558a0cc
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -64,7 +64,7 @@ at com.uback.Utils.JavaScriptUtil.flash(JavaScriptUtil.java:21)
 at com.uback.Utils.ElementUtil.getElement(ElementUtil.java:26)
 at com.uback.Utils.ElementUtil.doIsDisplayed(ElementUtil.java:55)
 at com.uback.donor.Pages.LoginPage.validatefooterLogo(LoginPage.java:63)
-at com.uback.donor.Tests.LoginPageTest.FooterLogoTest(LoginPageTest.java:89)
+at com.uback.donor.Tests.LoginPageTest.FooterLogoTest(LoginPageTest.java:91)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -99,11 +99,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FooterLogoTest -->
-        <test-method status="PASS" signature="CheckAllFooterLinkTest()[pri:5, instance:com.uback.donor.Tests.LoginPageTest@522b2631]" name="CheckAllFooterLinkTest" duration-ms="836" started-at="2020-05-14T16:45:47 IST" description="verifying footer link test" finished-at="2020-05-14T16:45:48 IST">
+        <test-method status="PASS" signature="CheckAllFooterLinkTest()[pri:5, instance:com.uback.donor.Tests.LoginPageTest@375b5b7f]" name="CheckAllFooterLinkTest" duration-ms="40" started-at="2020-05-14T17:01:25 IST" description="verifying footer link test" finished-at="2020-05-14T17:01:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckAllFooterLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.uback.donor.Tests.LoginPageTest@522b2631]" name="tearDown" is-config="true" duration-ms="728" started-at="2020-05-14T16:45:48 IST" finished-at="2020-05-14T16:45:48 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.uback.donor.Tests.LoginPageTest@375b5b7f]" name="tearDown" is-config="true" duration-ms="683" started-at="2020-05-14T17:01:25 IST" finished-at="2020-05-14T17:01:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

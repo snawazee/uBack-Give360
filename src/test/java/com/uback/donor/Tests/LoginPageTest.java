@@ -12,6 +12,7 @@ import org.testng.annotations.Test;
 
 import com.uback.Base.BasePage;
 import com.uback.Listeners.ExtentReportListener;
+import com.uback.Listeners.TestAllureListener;
 import com.uback.Utils.Constants;
 import com.uback.donor.Pages.HomePage;
 import com.uback.donor.Pages.LoginPage;
@@ -24,8 +25,8 @@ import io.qameta.allure.Story;
 
 
 
-@Listeners(ExtentReportListener.class)
-//@Listeners(TestAllureListener.class)
+//@Listeners(ExtentReportListener.class)
+@Listeners(TestAllureListener.class)
 @Epic("Epic - 101 : design login feature")
 @Feature("US - 105 : design test cases for login page feature")
 public class LoginPageTest {
@@ -90,8 +91,6 @@ public class LoginPageTest {
 		boolean flag = loginPage.validatefooterLogo();
 		Assert.assertTrue(flag);
 	}
-	
-	
 	
 	@Test(priority = 5, description = "verifying footer link test")
 	@Severity(SeverityLevel.MINOR)

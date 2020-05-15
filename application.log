@@ -22,3 +22,6 @@
 2020-05-14 16:45:36 INFO  LoginPageTest:57 - ****************************** starting test case *****************************************
 2020-05-14 16:45:37 INFO  LoginPageTest:60 - login page title is--->uBack - uBack
 2020-05-14 16:45:37 INFO  LoginPageTest:62 - ****************************** ending test case *****************************************
+2020-05-14 17:01:16 INFO  LoginPageTest:58 - ****************************** starting test case *****************************************
+2020-05-14 17:01:16 INFO  LoginPageTest:61 - login page title is--->uBack - uBack
+2020-05-14 17:01:16 INFO  LoginPageTest:63 - ****************************** ending test case *****************************************
